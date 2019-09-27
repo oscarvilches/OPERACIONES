@@ -10,10 +10,10 @@ public class Main {
         OperacionesBasicas calc = new OperacionesBasicas();
         calc.setA(8);
         calc.setB(4);
-        calc.sumar(calc.getA(),calc.getB());
-        calc.restar(calc.getA(),calc.getB());
-        calc.multiplicar(calc.getA(),calc.getB());
-        calc.dividir(calc.getA(),calc.getB());
+        System.out.println("Suma: " + calc.sumar(calc.getA(), calc.getB()));
+        System.out.println("Resta: " + calc.restar(calc.getA(), calc.getB()));
+        System.out.println("Multiplicacion: " + calc.multiplicar(calc.getA(), calc.getB()));
+        System.out.println("Division: " + calc.dividir(calc.getA(), calc.getB()));
     }
-    
+
 }
